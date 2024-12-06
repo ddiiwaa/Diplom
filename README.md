@@ -14,7 +14,7 @@
 
 ### Шаги
 1. **Склонировать проект:** 
-    Выполните команду в терминале: 'git clone https://github.com/ddiiwaa/Diplom'
+    Выполните команду в терминале: git clone https://github.com/ddiiwaa/Diplom
 
 3. **Перейти в директорию проекта:**
         cd Diplom
