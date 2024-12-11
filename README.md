@@ -63,7 +63,7 @@
 - pip install requests
 - pip install allure-pytest# Diplom
 
-  8. **Kinopoisk-Test**
+  **Kinopoisk-Test**
 
   Для запуска только UI-тестов:
 bash pytest tests/test_ui.py --alluredir=reports/
