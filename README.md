@@ -67,7 +67,7 @@
 
   ## Kinopoisk-Test
 
-  Для запуска только UI-тестов:
+Для запуска только UI-тестов:
 bash pytest tests/test_ui.py --alluredir=reports/
 
 Для запуска только API-тестов:
