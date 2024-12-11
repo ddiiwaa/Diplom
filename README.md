@@ -57,9 +57,24 @@
 ## Установка библиотек
 Для установки необходимых библиотек, выполните следующие команды в терминале:
 
-
 - pip install pytest
 - pip install selenium
 - pip install webdriver-manager
 - pip install requests
 - pip install allure-pytest# Diplom
+
+
+
+  ## Kinopoisk-Test
+
+Для запуска только UI-тестов:
+bash pytest tests/test_ui.py --alluredir=reports/
+
+Для запуска только API-тестов:
+bash pytest tests/test_api.py --alluredir=reports/
+
+Для запуска всех тестов:
+bash pytest tests/ --alluredir=reports/
+
+Чтобы сгенерировать отчет Allure после выполнения тестов, выполните:
+bash allure serve reports/
